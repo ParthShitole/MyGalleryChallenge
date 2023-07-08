@@ -183,7 +183,7 @@ line-height: normal;
 .footer{
     position: absolute;
     width: 100vw;
-    bottom: 1px;
+    bottom: 0.5vh;
     display: flex;
     align-items: center;
     justify-content: center;
