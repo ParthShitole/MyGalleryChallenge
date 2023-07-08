@@ -216,4 +216,7 @@ line-height: normal;
     .profile{
         width: 32%;
     }
+    .footer{
+        display:none;
+    }
 }
