@@ -7,7 +7,7 @@ body{
     font-family: "Poppins", sans-serif;
     background-color: #fff;
     z-index: -1;
-    /* overflow: hidden; */
+    overflow: hidden;
  }
  .home-container{
     width:100vw;
