@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](demo_photo.png)
+![screenshot](demo_photo.jpg)
 
 This is my template for a gallery page built entirely using HTML, CSS ans Javascript only.
 
