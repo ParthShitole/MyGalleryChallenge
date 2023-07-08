@@ -1,0 +1,219 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+  }
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #fff;
+    z-index: -1;
+    /* overflow: hidden; */
+ }
+ .home-container{
+    width:100vw;
+    height:100vh;
+    display: block;
+    display: flex;
+    justify-content: center;
+ }
+ .home{
+    background-color: #fff;
+    height: 95.5vh;
+    width: 64vw;
+    max-width: 800px;
+    margin-top: 1.5vh;
+    margin-bottom: 3vh;
+ }
+ .about{
+    width:100%;
+    height: 33%;
+    background-color: #fff;
+ }
+ .photo{
+    width:100%;
+    height: 78%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .profile{
+    width:20%;
+    height: 70%;
+    border-radius: 10px ;
+ }
+.photo h2{
+    color: #4E5150;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal; 
+}
+.photo h3{
+    color: #A9A9A9;
+font-family: Montserrat;
+font-size: 10px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.stats{
+    width:100%;
+    height: 22%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width:69px;
+    height: 80%;
+    margin-top:10%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 12px;
+    background: #E5E5E5; 
+}
+.box h4{
+    color: #4E5150;
+text-align: center;
+font-family: Montserrat;
+font-size: 75%;
+font-style: normal;
+font-weight: 600;
+line-height: normal; 
+}
+.box h5{
+    color: var(--gray-4, #BDBDBD);
+text-align: center;
+font-family: Montserrat;
+font-size: 60%;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.gallery{
+    padding-top:2%;
+    background-color: #fff;
+    width: 100%;
+    height: 67%;
+}
+.gallery-top{
+    width:100%;
+    height: 32%;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2% ;
+}
+.Photo1{
+    width: 31.5%;
+    height: 100%;
+    border-radius: 12px;
+    margin-right: 0.9%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Photo2{
+    margin-left: 0.5%;
+    width: 65.5%;
+    height: 100%;
+    border-radius: 12px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gallery-bottom{
+    width: 100%;
+    height: 68%;
+    display: flex;
+}
+.gallery-bottom-left{
+    width: 70%;
+    margin-right: 2%;
+    height: 100%;
+}
+.gallery-bottom-right{
+    width:28%;
+    height:100%;
+}
+.Photo4{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-radius: 12px;
+}
+
+.gallery-left-top{
+    width: 100%;
+    height: 55%;
+    padding-bottom: 2%;
+}
+.gallery-left-bottom{
+    width: 100%;
+    height: 45%;
+    display: flex;
+}
+.Photo5{
+    width: 45%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-radius: 12px;
+    margin-right: 2%;
+}
+.Photo6{
+    width: 53%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-radius: 12px;
+}
+.Photo3{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-radius: 12px;
+}
+.footer{
+    position: absolute;
+    width: 100vw;
+    bottom: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fotter-text{
+    color: black;
+    opacity: 0.65;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+}
+@media screen and (max-width:900px) {
+    .profile{
+        width: 32%;
+    }
+}
+@media screen and (max-width:700px) {
+    .home{
+        width:100vw;
+    }
+    .profile{
+        width: 20%;
+    }
+    
+}
+@media screen and (max-width:500px) {
+    .profile{
+        width: 32%;
+    }
+}
